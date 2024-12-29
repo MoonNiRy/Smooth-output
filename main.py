@@ -8,7 +8,6 @@ system("cls") #win
 #system("clear") #unix
 
 with open(file, 'r', encoding='utf-8') as file:
-    parse = []
     parse = file.readlines()
     
     for line in parse:
